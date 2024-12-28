@@ -1,0 +1,103 @@
+{
+    "folders": [
+      {
+        "id": 1,
+        "name": "Math",
+        "quizzes": [
+          {
+            "id": 1,
+            "title": "Algebra Basics",
+            "questions": [
+              { "id": 1, "question": "What is the value of x in 2x + 3 = 7?", "answer": "2" },
+              { "id": 2, "question": "Simplify: 3x - 5x + 2", "answer": "-2x + 2" },
+              { "id": 3, "question": "Solve for y: y/4 = 8", "answer": "32" }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Geometry Basics",
+            "questions": [
+              { "id": 1, "question": "What is the sum of angles in a triangle?", "answer": "180 degrees" },
+              { "id": 2, "question": "What is the area of a rectangle with sides 4 and 6?", "answer": "24" },
+              { "id": 3, "question": "How many sides does a pentagon have?", "answer": "5" }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Trigonometry Basics",
+            "questions": [
+              { "id": 1, "question": "What is sin(90°)?", "answer": "1" },
+              { "id": 2, "question": "What is tan(45°)?", "answer": "1" },
+              { "id": 3, "question": "What is cos(0°)?", "answer": "1" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Science",
+        "quizzes": [
+          {
+            "id": 1,
+            "title": "Physics Basics",
+            "questions": [
+              { "id": 1, "question": "What is the acceleration due to gravity on Earth?", "answer": "9.8 m/s^2" },
+              { "id": 2, "question": "What is the formula for force?", "answer": "F = ma" },
+              { "id": 3, "question": "What is the speed of light?", "answer": "3 × 10^8 m/s" }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Chemistry Basics",
+            "questions": [
+              { "id": 1, "question": "What is the chemical symbol for water?", "answer": "H2O" },
+              { "id": 2, "question": "What is the pH of a neutral solution?", "answer": "7" },
+              { "id": 3, "question": "What is the atomic number of carbon?", "answer": "6" }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Biology Basics",
+            "questions": [
+              { "id": 1, "question": "What is the powerhouse of the cell?", "answer": "Mitochondria" },
+              { "id": 2, "question": "What is the basic unit of life?", "answer": "Cell" },
+              { "id": 3, "question": "What is the process plants use to make food?", "answer": "Photosynthesis" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "History",
+        "quizzes": [
+          {
+            "id": 1,
+            "title": "Ancient History",
+            "questions": [
+              { "id": 1, "question": "Who built the Great Pyramid of Giza?", "answer": "Egyptians" },
+              { "id": 2, "question": "What is the name of the Roman god of war?", "answer": "Mars" },
+              { "id": 3, "question": "What year did the Roman Empire fall?", "answer": "476 AD" }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Medieval History",
+            "questions": [
+              { "id": 1, "question": "Who was crowned the first Holy Roman Emperor?", "answer": "Charlemagne" },
+              { "id": 2, "question": "What was the primary purpose of castles?", "answer": "Defense" },
+              { "id": 3, "question": "What year did the Battle of Hastings occur?", "answer": "1066" }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Modern History",
+            "questions": [
+              { "id": 1, "question": "Who was the first President of the United States?", "answer": "George Washington" },
+              { "id": 2, "question": "What year did World War II end?", "answer": "1945" },
+              { "id": 3, "question": "What event started World War I?", "answer": "Assassination of Archduke Franz Ferdinand" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
