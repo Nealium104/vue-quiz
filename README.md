@@ -1,5 +1,8 @@
-# Vue 3 + Vite
+# Hi there
+This is the front end to an app that I'm calling Lara-quiz for now. It's basically an anki clone that I will be improving as time goes on.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# How do I run it?
+You'll need to clone, cd into the project, and then you can run `npm install && npm run dev`, but until my api is hosted, you probably will just get errors.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+# What technologies are you using?
+I'm using Vue, Tailwind, and Vite for build. This is pretty much the "standard" stack for Vue. On the backend, I'm using Laravel as an api with an SQLite database.
