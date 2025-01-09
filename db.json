@@ -1,0 +1,147 @@
+{
+  "folders": [
+    {
+      "id": 1,
+      "folderName": "Language Learning",
+      "createdAt": "2025-01-01T12:00:00Z",
+      "updatedAt": "2025-01-05T09:30:00Z"
+    },
+    {
+      "id": 2,
+      "folderName": "History",
+      "createdAt": "2025-01-02T08:00:00Z",
+      "updatedAt": "2025-01-06T14:45:00Z"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "folderId": 1,
+      "quizName": "French Vocabulary - Basics",
+      "createdAt": "2025-01-02T11:11:00Z",
+      "updatedAt": "2025-01-07T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "folderId": 1,
+      "quizName": "French Vocabulary - Advanced",
+      "createdAt": "2025-01-03T15:30:00Z",
+      "updatedAt": "2025-01-07T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "folderId": 2,
+      "quizName": "WW2 Trivia",
+      "createdAt": "2025-01-04T09:20:00Z",
+      "updatedAt": "2025-01-05T16:00:00Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "quizId": 1,
+      "questionText": "Bonjour means ____ in English.",
+      "answerText": "Hello",
+      "lastReviewDate": "2025-01-07T09:00:00Z",
+      "nextReviewDate": "2025-01-14T09:00:00Z",
+      "createdAt": "2025-01-02T11:20:00Z",
+      "updatedAt": "2025-01-07T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "quizId": 1,
+      "questionText": "Merci means ____ in English.",
+      "answerText": "Thank you",
+      "lastReviewDate": "2025-01-07T10:00:00Z",
+      "nextReviewDate": "2025-01-12T10:00:00Z",
+      "createdAt": "2025-01-02T11:30:00Z",
+      "updatedAt": "2025-01-07T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "quizId": 2,
+      "questionText": "Le chat means ____ in English.",
+      "answerText": "The cat",
+      "lastReviewDate": "2025-01-06T09:15:00Z",
+      "nextReviewDate": "2025-01-10T09:15:00Z",
+      "createdAt": "2025-01-03T15:40:00Z",
+      "updatedAt": "2025-01-06T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "quizId": 3,
+      "questionText": "Which year did World War II start?",
+      "answerText": "1939",
+      "lastReviewDate": "2025-01-05T10:00:00Z",
+      "nextReviewDate": "2025-01-11T10:00:00Z",
+      "createdAt": "2025-01-04T09:30:00Z",
+      "updatedAt": "2025-01-05T10:00:00Z"
+    },
+    {
+      "id": 5,
+      "quizId": 3,
+      "questionText": "Which year did World War II end?",
+      "answerText": "1945",
+      "lastReviewDate": "2025-01-05T10:30:00Z",
+      "nextReviewDate": "2025-01-10T10:30:00Z",
+      "createdAt": "2025-01-04T09:40:00Z",
+      "updatedAt": "2025-01-05T10:30:00Z"
+    }
+  ],
+  "reviewHistory": [
+    {
+      "id": 1,
+      "questionId": 1,
+      "reviewDate": "2025-01-07T09:00:00Z",
+      "difficulty": 3,
+      "nextReviewDate": "2025-01-14T09:00:00Z",
+      "intervalDays": 7,
+      "easinessFactor": 2.5
+    },
+    {
+      "id": 2,
+      "questionId": 1,
+      "reviewDate": "2025-01-01T08:00:00Z",
+      "difficulty": 2,
+      "nextReviewDate": "2025-01-07T09:00:00Z",
+      "intervalDays": 6,
+      "easinessFactor": 2.3
+    },
+    {
+      "id": 3,
+      "questionId": 2,
+      "reviewDate": "2025-01-07T10:00:00Z",
+      "difficulty": 4,
+      "nextReviewDate": "2025-01-12T10:00:00Z",
+      "intervalDays": 5,
+      "easinessFactor": 2.6
+    },
+    {
+      "id": 4,
+      "questionId": 3,
+      "reviewDate": "2025-01-06T09:15:00Z",
+      "difficulty": 2,
+      "nextReviewDate": "2025-01-10T09:15:00Z",
+      "intervalDays": 4,
+      "easinessFactor": 2.3
+    },
+    {
+      "id": 5,
+      "questionId": 4,
+      "reviewDate": "2025-01-05T10:00:00Z",
+      "difficulty": 3,
+      "nextReviewDate": "2025-01-11T10:00:00Z",
+      "intervalDays": 6,
+      "easinessFactor": 2.4
+    },
+    {
+      "id": 6,
+      "questionId": 5,
+      "reviewDate": "2025-01-05T10:30:00Z",
+      "difficulty": 3,
+      "nextReviewDate": "2025-01-10T10:30:00Z",
+      "intervalDays": 5,
+      "easinessFactor": 2.4
+    }
+  ]
+}
