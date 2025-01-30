@@ -2,7 +2,6 @@ export default {
   async getFolders() {
     try {
       const response = await fetch(`${import.meta.env.VITE_API_URL}/folders`, {
-        credentials: "include",
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",

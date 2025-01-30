@@ -1,10 +1,9 @@
 <script setup>
-import Nav from "./components/Nav.vue";
-import QuizCard from "./components/QuizCard.vue";
+import QuizTable from "./components/QuizTable.vue";
 </script>
 
 <template>
-  <Nav />
-  <QuizCard />
-  <QuizTable />
+  <main class="bg-gray-900 h-screen w-screen p-4">
+    <QuizTable />
+  </main>
 </template>
